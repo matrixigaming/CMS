@@ -1,0 +1,342 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload Plugin CSS Example
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+body {
+    padding-top: 0;
+}
+
+#TB_iframeContent html {
+    overflow: hidden;
+}
+.progress-bar.progress-bar-success{display:none;}
+
+.lightbox-header h2 {
+    border-bottom: 2px solid;
+    font: 23px Montserrat;
+    margin-bottom: 17px;
+    margin-top: 0;
+    padding-bottom: 14px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.lightbox-header {
+    background: #fff none repeat scroll 0 0; 
+    border-bottom: 0px solid #000;
+    color: #150708;
+    font: 17px Montserrat;
+    height: 24px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: auto;
+	position: relative;
+	  display: inline-table;
+	  width: 100%;
+}
+
+.light-box-content {
+    width: 100% !important;
+}
+
+
+.light-box-content.post-job-form .lightbox-inner {
+    height: auto;
+    margin: 0px;
+overflow-y: hidden !important;
+}
+
+.lightbox-inner {
+    background-color: #fff;
+    border: 0 solid red;
+    border-radius: 0px;
+    height: auto;
+	min-height: auto;
+    margin: 0px;
+    padding: 1px 0 0;
+    width: auto !important;
+	overflow-y: scroll;
+}
+.spantext {
+    float: left;
+    height: 20px;
+    width: 100%;
+}
+.cmxform table {
+    margin: auto;
+}
+.light-box-content {
+color: #150708;
+    font-size: 18px;
+    height: auto !important;
+    margin: auto;
+    position: static;
+    text-decoration: none;
+    background: #fff;
+    padding: 0;
+    width: 100% !important;
+}
+
+.light-box-content td {
+    color: #333333;
+    font: 14px Montserrat;
+	margin: 7px 0px;
+}
+
+.pst-jb-btm-btn .pst-jb-btm-btn:hover {
+    background: #9c0e0e none repeat scroll 0 0;
+    border: 0px solid;
+    color: #fff;
+    font: 14px Montserrat;
+    margin-bottom: 30px;
+    padding: 14px 32px;
+    position: relative;
+    text-transform: uppercase;
+}
+ 
+.lightbox-footer {
+    background: transparent none repeat scroll 0 0;
+    height: auto;
+    margin-bottom: 23px;
+    margin-top: 17px;
+    text-align: center;
+    width: 100%;
+}
+
+.field-long, .field-long_file { 
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #d4d4d4;
+    color: #332926;
+    font: 14px montserrat;
+    height: 32px;
+    margin-top: 2px;
+    padding: 2px;
+    position: relative;
+	width: 71%;
+
+}
+
+#PasswordLabel > label {
+    width: 14%;
+
+}
+
+#PasswordLabel > span {
+    
+    line-height: 26px;
+    width: 14%;
+}
+
+.textareaimg {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #d5d5d5;
+    color: #332926;
+    font:16px montserrat;
+    height: 60px;
+    margin-top: 2px;
+    overflow: auto;
+    padding: 2px;
+    position: relative;
+    resize: none;
+	font-family: montserrat;
+    font-size: 14px;
+}
+
+.light-box-content .lightbox-inner {
+    overflow-y:hidden !important;
+}
+
+.close-btn {
+    background: rgba(0, 0, 0, 0) url("../img/close-symbol.png") no-repeat scroll 0 0;
+    color: #cc6600;
+    cursor: pointer;
+    float: right;
+    font: bold 22px Montserrat;
+    margin-right: 15px;
+    padding: 10px 0 12px 25px;
+    position: absolute;
+    right: 0;
+    top: 23px;
+    vertical-align: middle;
+    z-index: 99999;
+}
+.ninepixelfont, .file {
+    font:14px montserrat;
+}
+li {
+    list-style: outside none none;
+}
+
+
+li#recordsArray_0 {
+    list-style: none !important;
+}
+.close-btn:hover{text-decoration:none;}
+
+
+.bid-details {
+    margin-top: 14px !important;
+    text-align: center;
+    width: 100%;
+}
+
+.bid-details .header > td {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+	width: 20.3%;
+	text-transform: uppercase;
+}
+
+.bid-details .header {
+    background: #9c0e0e none repeat scroll 0 0;
+    color: #fff;
+    height: 32px;
+    vertical-align: middle;
+}
+
+
+.bid-details tr {
+    border-bottom: 1px solid #e0e0e0;
+    display: inline-block;
+    padding: 7px 0;
+    width: 100%;
+}
+
+.bid-details td {
+    color: #333333;
+    font: 14px Montserrat;
+    margin: 7px 0;
+    width: 32%;
+}
+
+
+
+
+/*---------- responsive table  open-----------*/
+.cmxform table {
+    margin: auto;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+#no-more-tables thead.cf {
+    background: #9c0d0d none repeat scroll 0 0;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.table-bordered {
+    border: 0 solid #ddd;
+}
+.table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: medium none;
+    padding: 10px 0;
+    text-align: center;
+}
+.table-striped > tbody > tr {
+    border-bottom: 1px solid #eae8e8;
+}
+.table-condensed > tbody > tr > td[data-title="Job"], .table-condensed > tbody > tr > td[data-title="Select"] {
+    text-align: left;
+	color:#9C0D0D;
+	text-transform:none;
+}
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    background-color: #fff;
+}	
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: none;
+    text-align: center;
+    padding: 10px 0;
+    font: bold 14px Montserrat;
+    border: none;
+} 	
+	
+	@media only screen and (max-width: 800px) {
+    
+    /* Force table to not be like tables anymore */
+	#no-more-tables table, 
+	#no-more-tables thead, 
+	#no-more-tables tbody, 
+	#no-more-tables th, 
+	#no-more-tables td, 
+	#no-more-tables tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#no-more-tables thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	#no-more-tables tr { border: 1px solid #ccc; }
+ 
+	#no-more-tables td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	#no-more-tables td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	#no-more-tables td:before { content: attr(data-title); }
+}
+/*---------- responsive table  end-----------*/
+
+
+
+
+@media only screen 
+and (min-device-width: 320px)    
+and (max-device-width: 700px)
+{ 
+.file-upload .paj {
+    margin: -55px 0;
+}
+label.col-sm-12.paj {
+    float: right;
+    margin-top: -16px;
+    margin-right: 37px;
+}
+.light-box-content td {
+    margin: 0px 0px;
+    display: block;
+}
+
+
+
+}

@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+label.error { display: none;}
+
+input.error, select.error {
+    border: 1px solid #ff0000;
+}
+
+.mail-ico-soon {
+    background: rgba(0, 0, 0, 0) url("../images/sprite.png") repeat scroll -2px -3px;
+    display: inline-block;
+    height: 41px;
+    width: 41px;
+}
+.fb-ico-soon {
+    background: rgba(0, 0, 0, 0) url("../images/sprite.png") repeat scroll -48px -3px;
+    display: inline-block;
+    height: 41px;
+    width: 41px;
+}
+.twit-ico-soon {
+    background: rgba(0, 0, 0, 0) url("../images/sprite.png") repeat scroll -95px -3px;
+    display: inline-block;
+    height: 41px;
+    width: 41px;
+}
+.utube-ico-soon {
+    background: rgba(0, 0, 0, 0) url("../images/sprite.png") repeat scroll -141px -3px;
+    display: inline-block;
+    height: 41px;
+    width: 41px;
+}
+
+.mail-ico-soon:hover {
+    background-position:-2px -49px;
+}
+.fb-ico-soon:hover {
+    background-position:-48px -49px;
+}
+.twit-ico-soon:hover {
+    background-position:-95px -49px;
+}
+.utube-ico-soon:hover {
+    background-position:-141px -49px;
+}
+
+.coming-soon-page{
+	background:url('../images/Coming-soon-bg.jpg') no-repeat 0 0 / cover;
+}
+
+.coming-soon-page .header{
+	background:rgba(0,0,0,.5) none no-repeat 0 0;
+	padding: 0px 0;
+	text-align: center;
+}
+
+.coming-soon-page .box {
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0; 
+    left: 50%;
+    padding: 71px 100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.coming-soon-page .box h1{
+    color: #e0ad65;
+}
+
+.coming-soon-page .box p {
+    color: #fff;
+    margin: 23px 0 44px;
+    text-align: center;
+}
+
+.coming-soon-page .box input {
+    background: transparent none repeat scroll 0 0;
+    border:none;
+    border-bottom:1px solid #fff;
+	letter-spacing:0;
+    color: #fff;
+    padding: 10px 0;
+    width: 71%;
+    margin-bottom: 17px;
+	outline: none;
+	float: left;
+	margin-left: 23px;
+}
+
+.coming-soon-page .box .ico {
+    margin: 0 5px;
+	cursor: pointer;
+}
+
+.coming-soon-page .box input.error {
+    border:none;
+    border-bottom: 1px solid red;
+}
+
+.coming-soon-page .box .ico {
+    margin: 0 5px;
+    transition: none 0s ease 0s ;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 400px) {
+.coming-soon-page {
+    background-position: center 0;
+}
+.coming-soon-page .box {
+	background-position: center 0;
+    padding: 17px;
+    width: 82%;
+    margin-top: 14%;
+}
+
+h1 {
+    font-size:32px;
+}
+.coming-soon-page .box p {
+    font-size: 12.2px;
+    margin: 23px 0;
+}
+  
+.coming-soon-page .box input {
+  width: 97%;
+  margin-bottom: 17px;
+}
+.btn.btn-defalut, .btn.btn-defalut:hover {
+    margin: 0 0 17px;
+    width: 100%;
+}
+
+
+}
+
+
+@media only screen and (min-width : 440px) and (max-width : 700px) {
+.coming-soon-page {
+    height: 558px !important;
+	background-position: center 0;
+}
+
+.coming-soon-page .box {
+    padding: 17px;
+    width: 82%;
+    margin-top: 23%;
+}
+
+h1 {
+    font-size:32px;
+}
+.coming-soon-page .box p {
+    font-size: 12.2px;
+    margin: 23px 0;
+}
+  
+.coming-soon-page .box input {
+  width: 97%;
+  margin-bottom: 17px;
+}
+.btn.btn-defalut, .btn.btn-defalut:hover {
+    margin: 0 0 17px;
+    width: 100%;
+}
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width : 730px) and (max-width : 800px) {
+.coming-soon-page{
+	background-position: center 0;
+}
+
+.coming-soon-page .box {
+    width: 89%;
+    top: 53%;
+    padding: 59px 44px;
+}
+
+}
+
+@media only screen and (min-width : 1000px) and (max-width : 1100px) {
+.coming-soon-page{
+	background-position: center 0;
+}
+
+.coming-soon-page .box {
+    width: 89%;
+    top: 53%;
+    padding: 59px 44px;
+}
+
+}
+
+
+/*-------- coming-soon-page-end ------------*/
+
+
+
+
+.content-page.price-table .box h1{
+    color: #e0ad65;
+}
+
+
+.content-page.price-table .box p {
+    color: #fff;
+    margin: 23px 0 44px;
+    text-align: center;
+}
+
+.content-page.price-table .box input {
+    background: transparent none repeat scroll 0 0;
+    border:none;
+    border-bottom:1px solid #fff;
+	letter-spacing:0;
+    color: #fff;
+    padding: 10px 0;
+    width: 71%;
+    margin-bottom: 17px;
+	outline: none;
+}
+
+.price-table-bg {
+    background: rgba(0, 0, 0, 0) url("../images/Coming-soon-bg.jpg") no-repeat scroll 0 0 / cover ;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+ul.price-boxes {
+    margin-bottom: 41px;
+    margin-top: 41px;
+	overflow: visible;
+	height: 320px;
+}
+.sub-text {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 17px;
+    text-transform: none;
+}
+.price-boxes li {
+    background: #17242d none repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    list-style: outside none none;
+    padding: 23px;
+    text-align: center;
+    width: 20%;
+	position:relative;
+	height: 283px;
+	transition:height 0.2s ease 0s;
+}
+.eBlast-section .price-boxes li {
+    height: 307px;
+}
+.price-boxes .slick-list {
+    overflow: visible;
+}
+
+
+.price-boxes li::after {
+    background: #cd9e5d none repeat scroll 0 0;
+    top: 0;
+    content: "";
+    height: 23px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+	transition: top 0.2s;
+}
+
+.price-boxes li::before {
+    background: #cd9e5d none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 23px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+	transition: all 0.2s ease 0.1s;
+}
+
+.price-boxes li:nth-child(2n+1):after {
+    background: #202f39 none repeat scroll 0 0;
+}
+.price-boxes li:nth-child(2n+1):hover:after {
+    background: #CD9E5D none repeat scroll 0 0;
+}
+
+/*.price-boxes li:nth-child(2n+1):before {
+    background: #202f39 none repeat scroll 0 0;
+}
+.price-boxes li:nth-child(2n+1):hover:before {
+   background: #CD9E5D none repeat scroll 0 0;
+}*/
+
+
+
+
+
+
+.price-boxes li:nth-child(2n):after {
+    background: #101b22 none repeat scroll 0 0;
+}
+.price-boxes li:nth-child(2n):hover:after {
+    background: #CD9E5D none repeat scroll 0 0;
+}
+
+.price-boxes li:nth-child(2n):before {
+    background: #101b22 none repeat scroll 0 0;
+}
+.price-boxes li:nth-child(2n):hover:before {
+    background: #CD9E5D none repeat scroll 0 0;
+}
+
+
+.price-boxes li:hover::after {
+    top: -23px;
+}
+
+.price-boxes li:hover::before {
+    //bottom: -23px;
+}
+
+.price-boxes li:nth-child(2n+1) {
+    background: #202f39 none repeat scroll 0 0;
+}
+.price-boxes li:nth-child(2n) {
+    background: #101b22 none repeat scroll 0 0;
+}
+
+.price-boxes li:hover {
+    height:305px;
+	background: #cd9e5d none repeat scroll 0 0;
+}
+.eBlast-section .price-boxes li:hover {
+    height: 332px;
+}
+
+
+.price-boxes .no-of-weeks {
+    background: #18252e none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #4d5e69;
+    display: inline-block;
+    height: 113px;
+    letter-spacing: 1.4px;
+    margin: auto;
+    padding-top: 23px;
+    vertical-align: middle;
+    width: 113px;
+}
+
+.price-boxes .no-of-weeks {
+    padding-top: 32px;
+}	
+.price-boxes li:hover .no-of-weeks {
+    background: #c69148 none repeat scroll 0 0;
+    color: #ffdba9;
+}
+
+
+.price-boxes .no-of-weeks  .number {
+    font: bold 41px Philosopher;
+	color:#fff;
+}
+
+.price-boxes  .amount {
+    color: #cd9e5d;
+    font: 50px/71px Philosopher;
+}
+.price-boxes li:hover .amount {
+    color: #17242d;
+}
+.price-boxes .precentage {
+    letter-spacing: 2.3px;
+    line-height: 26px;
+    text-transform: uppercase;
+	color: #66757f;
+}
+.price-boxes li:hover .precentage {
+	color: #ffdba9;
+}
+
+.price-boxes .Competitor-price {
+    border-top: 1px solid #2d3d48;
+    display: inline-block;
+    font-size: 13.1px;
+    letter-spacing: 2px;
+    margin-top: 8px;
+    padding: 14px 0 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.price-boxes li:hover  .Competitor-price {
+    border-top: 1px solid #17242d;
+}
+
+.price-boxes .Competitor-price .amount {
+    font-size: 17px;
+    line-height: 32px;
+	letter-spacing:normal;
+}
+
+.precentage .number {
+    font: bold 23px Philosopher;
+    letter-spacing: normal;
+	color: #fff;
+}
+
+.price-boxes .slick-prev.slick-arrow {
+    background: rgba(0, 0, 0, 0) url("../images/sprite.png") no-repeat scroll -8px -97px;
+    border: medium none;
+    height: 0;
+    left: 0;
+    padding: 14px;
+    position: absolute;
+    text-indent: -990px;
+    top: 50%;
+    transform: rotate(-180deg);
+    width: 0;
+    z-index: 10;
+}
+
+.price-boxes .slick-next.slick-arrow, .price-boxes .slick-next.slick-arrow:focus {
+    background: rgba(0, 0, 0, 0) url(../images/sprite.png) no-repeat scroll -8px -97px;
+    border: medium none;
+    padding: 14px;
+    position: absolute;
+    text-indent: -990px;
+    top: 50%;
+    z-index: 10;
+    right: 0;
+    outline: none;
+	 height: 0;
+}
+
+button.slick-next.slick-arrow.slick-disabled, button.slick-prev.slick-arrow.slick-disabled {
+    opacity: .23;
+}
+
+
+
+
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width : 670px)
+/*and (-webkit-min-device-pixel-ratio: 2)*/ {
+	
+	
+.price-boxes li {
+	margin: 0 3%;
+}
+ul.price-boxes {
+    overflow: hidden;
+}
+.page-header h2 {
+    font: 600 19px Philosopher;
+}
+.content-page {
+    margin-top: 41%;
+}
+.page-sub-header, .page-sub-header h3 {
+    font: 600 17px Philosopher;
+}
+.price-boxes li:hover {
+    height:350px;
+}
+
+}
+
+@media only screen 
+and (min-device-width: 750px)    
+and (max-device-width: 1100px)
+/*and (-webkit-min-device-pixel-ratio: 2)*/ {
+	
+.price-boxes li {
+    margin: 0 2%;
+}
+ul.price-boxes {
+  overflow: hidden;
+}
+.page-header h2 {
+    font: 600 23px Philosopher;
+}
+.price-boxes li:hover {
+    height:350px;
+}
+
+}

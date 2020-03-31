@@ -1,0 +1,15 @@
+.text-success {color: #52c624!important;}
+.fa-circle::before {font-size: 5px; vertical-align: middle;}
+.social {padding: 0 4px;}
+.social-media a:hover {color: #e8721a;}
+.social-media a {color: #444;}
+.copyright {padding-right: 10px; float: right; color: #ababab;}
+th {background: #f7c902!important;}
+.border {border: 1px solid #ecf0f5; text-transform: uppercase;}
+tr:nth-child(odd) {background-color: #eaeaea;}
+table {background: white!important;}
+tr > td:first-child {font-weight: bold;}
+.btn-iboom {background: black; color: white; width: 30%; clear: both; margin: 0 auto;}
+.btn-iboom:hover {background: #f7c902; font-weight: 400;}
+h5 {background: #f7c902; color: black; text-transform: uppercase; font-weight: bold; padding: 7px 10px;}
+.msgReadClass{font-weight: bold;}

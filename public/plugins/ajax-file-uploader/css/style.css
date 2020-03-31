@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload Plugin CSS Example
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+.lightbox-header {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 2px solid #ffffff;
+    color: #150708;
+    font: 23px Montserrat;
+    height: 24px;
+    margin: 0 0 5px;
+    padding: 10px 0 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: auto;
+}
+
+body {
+  padding-top: 0px;
+}
+
+

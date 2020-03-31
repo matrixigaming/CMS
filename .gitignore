@@ -1,0 +1,13 @@
+/vendor
+/node_modules
+/public/storage
+/public/uploads
+/dump
+/nbproject
+/api/vendor
+/tests
+/storage
+/app/Repositories
+Homestead.yaml
+Homestead.json
+.env

@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload Plugin CSS
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+ @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+ 
+ #TB_iframeContent body {
+    padding-top: 0;
+	
+}
+.size {
+    color: #000;
+    text-indent: 8px;
+}
+
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px !important;
+  direction: ltr;
+  cursor: pointer;
+}
+
+.fileupload-buttonbar {
+    text-align: center;
+}
+
+.fileupload-buttonbar.submit-file {
+    float: right;
+    margin-right: 162px;
+    margin-top: -68px;
+    text-align: center;
+}
+
+.header h2 {
+    border-bottom: 2px solid;
+    font: 23px Montserrat;
+    margin-bottom: 17px;
+    padding-bottom: 14px;
+	padding-top: 20px; 
+    text-align: center;
+	margin-top: 0;
+}
+
+.fileupload-buttonbar.upload-file {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+	width: 100%;
+}
+
+.table.table-striped {
+    margin: auto;
+    max-width: 100%;
+    width: 77%;
+}
+p {
+    font: 14px Montserrat;
+    margin: 0 0 10px;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: transparent;
+    border: medium none;
+}
+.table-striped canvas {
+    height: 150px;
+    width: 150px;
+	overflow: hidden;
+}
+#uploadfiles #formboxes li {
+    height: 200px;
+    width: 200px;
+}
+#uploadfiles #formboxes li img {
+    width: 100%;
+}
+.pst-jb-btm-btn {
+    border: 2px solid;
+    color: #fff;
+    font: 14px Montserrat;
+    margin-bottom: 26px;
+    padding: 14px 32px;
+    position: relative;
+    text-transform: uppercase;
+}
+.template-upload input, .template-upload textarea {
+    margin-bottom: 17px;
+    width: 100%;
+    border: 1px solid #8E8E8E;
+}
+
+.textareaimg {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #999;
+    color: #332926;
+    font: 11px verdana;
+    height: 60px;
+    margin-top: 2px;
+    overflow: auto;
+    padding: 2px;
+    position: relative;
+    resize: none;
+    width: 71%;
+}
+
+
+form#fileupload, form#formImage {
+    background: #fff none repeat scroll 0 0;
+    height: 500px;
+    left: 50%;
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 833px;
+    z-index: 9999;
+	padding: 0;
+}
+.pst-jb-btm-btn {
+    background: #0b141a none repeat scroll 0 0;
+    border-radius: 0;
+	border: 0;
+    color: #e0ad65;
+    font: 13px Montserrat;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+.close-btn::after {
+    background: rgba(0, 0, 0, 0) none;
+}
+.template-upload input, .template-upload textarea {
+    border: 1px solid #8e8e8e;
+    height: 32px;
+    margin-bottom: 17px;
+    width: 100% !important;
+}
+
+
+
+
+
+/* Fixes for IE < 8 */
+@media screen\9 {
+  .fileinput-button input {
+    filter: alpha(opacity=0);
+    font-size: 100%;
+    height: 100%;
+  }
+}
+
+
+
+
+
+
+
+@media only screen 
+and (min-device-width: 320px)    
+and (max-device-width: 700px)
+{
+
+.template-upload button.pst-jb-btm-btn.cancel {
+    width: 100%;
+}
+
+.fileupload-buttonbar.submit-file {
+    float: none;
+    margin-right: 0;
+    margin-top: -28px;
+    width: 100%;
+}
+.fileupload-buttonbar + .table.table-striped {
+    width: 100%;
+}
+
+.fileupload-buttonbar + .table-striped > tbody > tr {
+    border-bottom: 0px solid #eae8e8;
+}
+
+.files .col-sm-4 {
+    text-align: center;
+    margin-bottom: 17px;
+}
+.fileupload-buttonbar.submit-file .pst-jb-btm-btn {
+    width: 86%;
+}
+
+
+}
+
